@@ -1,0 +1,7 @@
+RST @83ns  async=0 sync=5
+RST @86ns  async=0 sync=0
+PASS: async reset clears at once, sync reset waits for the clock edge, enable holds the count
+PASS: delay line without reset behaves identically once full
+PASS: reset asserts immediately and releases only on a clock edge
+BLINK N=20 ticks=8 led_en=8 led_div=8
+PASS: tick generator counts every N clocks; both blinkers behave alike in simulation

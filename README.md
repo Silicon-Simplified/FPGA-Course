@@ -19,6 +19,7 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 4 | Digital logic for FPGA designers: combinational vs sequential, delay, setup and hold | [ep04](episodes/ep04_digital_logic) | coming soon |
 | 5 | Verilog basics: think in hardware | [ep05](episodes/ep05_verilog_basics) | coming soon |
 | 6 | Blocking vs non-blocking assignments | [ep06](episodes/ep06_blocking_nonblocking) | coming soon |
+| 7 | Counters, enables and resets done right | [ep07](episodes/ep07_counters_resets) | coming soon |
 
 More episodes are added as they are released.
 

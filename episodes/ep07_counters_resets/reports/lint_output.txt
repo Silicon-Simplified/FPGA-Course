@@ -1,0 +1,9 @@
+LINT OK cnt8_sync
+LINT OK cnt8_async
+LINT OK shreg_rst
+LINT OK shreg_norst
+LINT OK shreg_arst
+LINT OK rst_sync
+LINT OK tick_gen
+LINT OK blink_en
+LINT OK blink_div
