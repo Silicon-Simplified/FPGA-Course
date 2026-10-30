@@ -1,0 +1,4 @@
+part,device,slicel,slicem,total,slicem_percent,luts_in_slicem,distributed_ram_kbit,luts_db,check
+xc7s50csga324-1,xc7s50,5750,2400,8150,29.4,9600,600.0,32600,OK
+xc7a100tcsg324-1,xc7a100t,11100,4750,15850,30.0,19000,1187.5,63400,OK
+xc7z020clg400-1,xc7z020,8950,4350,13300,32.7,17400,1087.5,53200,OK

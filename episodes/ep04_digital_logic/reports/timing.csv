@@ -1,0 +1,7 @@
+design,period_ns,slack_ns,fmax_est_mhz,clk_to_q_ns,logic_ns,route_ns,datapath_ns,setup_ns,logic_levels,logic_cells
+path_demo,10.0,5.032,201,0.419,2.185,2.501,4.686,-0.198,5,"FDRE LUT2 CARRY4 CARRY4 LUT6 CARRY4 FDRE"
+path_demo,4.0,0.340,273,0.456,1.907,1.471,3.378,-0.198,5,"FDRE LUT2 CARRY4 CARRY4 LUT6 CARRY4 FDRE"
+path_demo,2.5,-1.144,274,0.456,2.038,1.324,3.362,-0.198,5,"FDRE LUT2 CARRY4 CARRY4 LUT6 CARRY4 FDRE"
+path_demo_piped,10.0,6.838,316,0.518,1.038,1.890,2.928,-0.150,2,"FDRE LUT6 CARRY4 FDRE"
+path_demo_piped,4.0,1.037,337,0.518,1.168,1.513,2.681,-0.198,2,"FDRE LUT6 CARRY4 FDRE"
+path_demo_piped,2.5,-0.070,389,0.456,0.978,1.310,2.288,-0.198,2,"FDRE LUT6 CARRY4 FDRE"

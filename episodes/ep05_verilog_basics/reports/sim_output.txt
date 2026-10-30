@@ -1,0 +1,12 @@
+ROW 000 0110 0011 1001 0 0
+ROW 001 0110 0011 0011 0 1
+ROW 010 0110 0011 0010 0 0
+ROW 011 0110 0011 0111 0 0
+ROW 100 0110 0011 0101 0 0
+ROW 101 0110 0011 1001 0 0
+ROW 110 0110 0011 1100 0 0
+ROW 111 0110 0011 0011 0 0
+PASS: alu4, all 2048 combinations
+OPS and=0010 or=1111 xor=1101 not=0100 add=0001 shl=0110 eq=0 max=1011 cat=10110110 rep=1111
+PASS: all operators behave as described
+PASS: statement order does not matter for assigns

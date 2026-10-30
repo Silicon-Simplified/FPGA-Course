@@ -1,0 +1,8 @@
+PASS: non-blocking delays by 3 clocks, blocking collapses to no delay
+SWAP loaded  nb=(1,2) blk=(1,2)
+SWAP after1  nb=(2,1) blk=(2,2)
+SWAP after2  nb=(1,2) blk=(2,2)
+PASS: non-blocking swaps, blocking copies
+SENS a=1 b=1  bad=0 good=1
+SENS (a wiggled) bad=1 good=1
+PASS: incomplete sensitivity list gives a stale output in simulation

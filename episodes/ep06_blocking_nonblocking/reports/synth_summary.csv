@@ -1,0 +1,8 @@
+design,status,luts,flip_flops,primitives,lut_inits
+reg8_en_rst,OK,0,8,"FDRE x8",""
+shift3_nb,OK,3,3,"FDRE x3; LUT2 x3","LUT2:4'h2; LUT2:4'h2; LUT2:4'h2"
+shift3_blk,OK,1,1,"FDRE x1; LUT2 x1","LUT2:4'h2"
+swap_nb,OK,8,8,"FDRE x8; LUT3 x8","LUT3:8'hAC; LUT3:8'hAC; LUT3:8'hAC; LUT3:8'hAC; LUT3:8'hAC; LUT3:8'hAC; LUT3:8'hAC; LUT3:8'hAC"
+swap_blk,OK,4,8,"FDRE x8; LUT3 x4","LUT3:8'hAC; LUT3:8'hAC; LUT3:8'hAC; LUT3:8'hAC"
+sens_bad,OK,1,0,"LUT2 x1","LUT2:4'h8"
+sens_good,OK,1,0,"LUT2 x1","LUT2:4'h8"

@@ -1,0 +1,11 @@
+# Vivado / simulator scratch
+.Xil/
+*.jou
+*.log
+*.pb
+*.bit
+xsim.dir/
+webtalk*
+.sim/
+build/
+*.wdb

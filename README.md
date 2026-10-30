@@ -1,0 +1,56 @@
+# Silicon Simplified: Xilinx FPGA Course
+
+Companion code for the **Silicon Simplified** YouTube series, a complete, hands-on course on Xilinx / AMD FPGAs:
+from "what is an FPGA?" to timing closure and Zynq SoCs.
+
+Every number shown in the videos comes from a real run of the code in this repository
+(Vivado simulator, Verilator lint, and AMD Vivado 2023.2 synthesis / implementation).
+
+- **Board:** Digilent Basys 3 (Artix-7 `xc7a35tcpg236-1`)
+- **Tools:** AMD Vivado 2023.2 (free edition), Verilator (optional, for lint)
+
+## Episodes
+
+| # | Episode | Code | Video |
+|---|---|---|---|
+| 1 | What is an FPGA? How it really works inside | [ep01](episodes/ep01_what_is_an_fpga) | [Watch](https://youtu.be/5TFQvzD636w) |
+| 2 | Xilinx / AMD families explained, and how to choose your first board | [ep02](episodes/ep02_xilinx_families) | coming soon |
+| 3 | Inside an FPGA slice: LUTs, carry chains, shift registers, distributed RAM | [ep03](episodes/ep03_seven_series_clb) | coming soon |
+| 4 | Digital logic for FPGA designers: combinational vs sequential, delay, setup and hold | [ep04](episodes/ep04_digital_logic) | coming soon |
+| 5 | Verilog basics: think in hardware | [ep05](episodes/ep05_verilog_basics) | coming soon |
+| 6 | Blocking vs non-blocking assignments | [ep06](episodes/ep06_blocking_nonblocking) | coming soon |
+
+More episodes are added as they are released.
+
+## How to use this repository
+
+Each episode folder is self-contained:
+
+```
+episodes/epXX_name/
+  README.md      what the code shows and the results to expect
+  rtl/           Verilog design files
+  tb/            self-checking testbenches
+  scripts/       Tcl and shell scripts (simulation, synthesis, implementation)
+  reports/       the real Vivado / simulator results shown in the video
+  constraints/   .xdc pin files (where a design goes on the board)
+```
+
+Typical commands (from inside an episode folder):
+
+```bash
+source <vivado install>/settings64.sh      # e.g. ~/Xilinx/Vivado/2023.2/settings64.sh
+bash scripts/sim_all.sh                    # run the self-checking testbenches
+vivado -mode batch -source scripts/<script>.tcl
+```
+
+Every episode README lists its exact commands, and ends with a challenge to try yourself.
+
+## Pin constraints
+
+Constraint files target the Basys 3. They use pin names from Digilent's Basys 3 master XDC.
+Vivado checks that they are legal for the package, but always confirm against your board's reference manual.
+
+## License
+
+Code in this repository is released under the [MIT License](LICENSE). Video content is © Silicon Simplified.
