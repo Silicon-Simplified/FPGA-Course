@@ -1,0 +1,8 @@
+PASS: traffic light phases last exactly 5/2 ticks and greens never overlap
+SEQ hits=3
+PASS: Mealy matches in the same cycle, Moore one clock later (overlapping 1011)
+SEU @66ns  unsafe=6 safe=0
+SEU @126ns unsafe=6 safe=1
+PASS: the safe FSM recovers from an illegal state, the unsafe one is stuck forever
+DEBOUNCE naive_edges=10 debounced_presses=2
+PASS: debouncer turns every bouncy press into exactly one pulse

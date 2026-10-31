@@ -1,0 +1,13 @@
+design,status,luts,flip_flops,primitives,logic_levels
+fsm_traffic,OK,13,6,"FDRE x6; LUT1 x2; LUT2 x5; LUT3 x2; LUT4 x1; LUT5 x2; LUT6 x1",2
+seq_mealy,OK,3,2,"FDRE x2; LUT2 x1; LUT3 x1; LUT4 x1",1
+seq_moore,OK,5,5,"FDRE x4; FDSE x1; LUT2 x2; LUT3 x1; LUT5 x2",1
+fsm8_auto,OK,12,8,"FDRE x7; FDSE x1; LUT2 x1; LUT3 x6; LUT4 x3; LUT5 x1; LUT6 x1",1
+fsm8_one_hot,OK,12,8,"FDRE x7; FDSE x1; LUT2 x1; LUT3 x6; LUT4 x3; LUT5 x1; LUT6 x1",1
+fsm8_sequential,OK,6,3,"FDRE x3; LUT3 x3; LUT6 x3",1
+fsm8_gray,OK,6,3,"FDRE x3; LUT3 x3; LUT6 x3",1
+fsm8_johnson,OK,7,4,"FDRE x4; LUT4 x3; LUT6 x4",1
+fsm8_none,OK,5,3,"FDRE x3; LUT3 x2; LUT6 x3",1
+fsm_unsafe,OK,4,3,"FDRE x3; LUT3 x1; LUT4 x2; LUT5 x1",1
+fsm_safe,OK,4,3,"FDRE x3; LUT3 x1; LUT4 x2; LUT5 x1",1
+debounce,OK,29,24,"CARRY4 x5; FDRE x24; LUT4 x23; LUT5 x3; LUT6 x3",5
