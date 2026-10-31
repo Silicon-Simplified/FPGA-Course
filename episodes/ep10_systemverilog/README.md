@@ -1,6 +1,6 @@
 # Episode 10 — SystemVerilog for synthesis (companion code)
 
-Every claim in the video is backed by a run: Verilator lint, the Vivado simulator (`xvlog -sv`, `xelab`, `xsim`) and Vivado 2023.2 synthesis for the Basys 3 part (`xc7a35tcpg236-1`, out-of-context).
+Every claim in the video is backed by a run: Verilator lint, the Vivado simulator (`xvlog -sv`, `xelab`, `xsim`) and Vivado 2023.2 synthesis for the PYNQ-Z2 part (`xc7z020clg400-1`, out-of-context).
 
 | Design | What it shows | Result |
 |---|---|---|

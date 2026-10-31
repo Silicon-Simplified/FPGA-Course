@@ -1,6 +1,6 @@
 # Silicon Simplified - FPGA Course, Episode 4
 # Gate-level vs RTL full adder: what does Vivado build for each?   vivado -mode batch -source scripts/synth_adders.tcl
-set part xc7a35tcpg236-1
+set part xc7z020clg400-1
 file mkdir reports
 set fh [open reports/adders.csv w]
 puts $fh "design,slice_luts,primitives,luts_detail"

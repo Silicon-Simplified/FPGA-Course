@@ -1,9 +1,9 @@
 # Silicon Simplified - FPGA Course, Episode 5
-# Full flow for the Basys 3 (non-project mode): synth -> place -> route -> bitstream.   vivado -mode batch -source scripts/build_top.tcl
-set part xc7a35tcpg236-1
+# Full flow for the PYNQ-Z2 (non-project mode): synth -> place -> route -> bitstream.   vivado -mode batch -source scripts/build_top.tcl
+set part xc7z020clg400-1
 file mkdir reports build
 foreach f {adder4.v alu4.v alu_top.v} { read_verilog rtl/$f }
-read_xdc constraints/basys3.xdc
+read_xdc constraints/pynq_z2.xdc
 synth_design -top alu_top -part $part
 opt_design; place_design; route_design
 report_utilization -file reports/alu_top_utilization.rpt

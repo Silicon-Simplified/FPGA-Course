@@ -10,4 +10,4 @@ fsm8_johnson,OK,7,4,"FDRE x4; LUT4 x3; LUT6 x4",1
 fsm8_none,OK,5,3,"FDRE x3; LUT3 x2; LUT6 x3",1
 fsm_unsafe,OK,4,3,"FDRE x3; LUT3 x1; LUT4 x2; LUT5 x1",1
 fsm_safe,OK,4,3,"FDRE x3; LUT3 x1; LUT4 x2; LUT5 x1",1
-debounce,OK,29,24,"CARRY4 x5; FDRE x24; LUT4 x23; LUT5 x3; LUT6 x3",5
+debounce,OK,29,24,"CARRY4 x5; FDRE x24; LUT4 x23; LUT5 x3; LUT6 x3",3

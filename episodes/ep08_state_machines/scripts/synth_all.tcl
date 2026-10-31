@@ -1,6 +1,6 @@
 # Silicon Simplified - FPGA Course, Episode 8
 # What does Vivado really build for each FSM?   vivado -mode batch -source scripts/synth_all.tcl
-set part xc7a35tcpg236-1
+set part xc7z020clg400-1
 file mkdir reports
 file mkdir reports/tmp
 set fh [open reports/synth_summary.csv w]

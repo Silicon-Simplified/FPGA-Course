@@ -1,11 +1,11 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
-| Date         : Fri Oct 30 23:55:11 2026
-| Host         : (redacted)
+| Date         : Sat Oct 31 18:25:48 2026
+
 | Command      : report_methodology -file reports/top_blink_div_methodology.rpt
 | Design       : top_blink_div
-| Device       : xc7a35tcpg236-1
+| Device       : xc7z020clg400-1
 | Speed File   : -1
 | Design State : Fully Routed
 ---------------------------------------------------------------------------------------------------------------------------------------------
@@ -55,7 +55,7 @@ Related violations: <none>
 
 TIMING-18#1 Warning
 Missing input or output delay  
-An input delay is missing on btnC relative to the rising and/or falling clock edge(s) of sys_clk.
+An input delay is missing on btn relative to the rising and/or falling clock edge(s) of sys_clk.
 Related violations: <none>
 
 

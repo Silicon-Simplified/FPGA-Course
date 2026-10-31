@@ -6,7 +6,7 @@ from "what is an FPGA?" to timing closure and Zynq SoCs.
 Every number shown in the videos comes from a real run of the code in this repository
 (Vivado simulator, Verilator lint, and AMD Vivado 2023.2 synthesis / implementation).
 
-- **Board:** Digilent Basys 3 (Artix-7 `xc7a35tcpg236-1`)
+- **Board:** TUL **PYNQ-Z2** (Zynq-7020, part `xc7z020clg400-1`, 125 MHz PL clock). Episode 1 was recorded on the Basys 3 (Artix-7); the 7-series logic is identical, and every later episode targets the PYNQ-Z2.
 - **Tools:** AMD Vivado 2023.2 (free edition), Verilator (optional, for lint)
 
 ## Episodes
@@ -53,8 +53,8 @@ Every episode README lists its exact commands, and ends with a challenge to try 
 
 ## Pin constraints
 
-Constraint files target the Basys 3. They use pin names from Digilent's Basys 3 master XDC.
-Vivado checks that they are legal for the package, but always confirm against your board's reference manual.
+Constraint files target the PYNQ-Z2. Pin names are copied from the official PYNQ-Z2 constraints (Xilinx/PYNQ, `boards/Pynq-Z2/base/vivado/constraints/base.xdc`); the 125 MHz clock pin (H16) comes from the board reference manual.
+Vivado checks that they are legal for the package, but they have not been tested on a physical board, so always confirm against your board's reference manual.
 
 ## License
 

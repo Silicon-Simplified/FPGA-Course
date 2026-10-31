@@ -1,6 +1,6 @@
 # Silicon Simplified - FPGA Course, Episode 5
-# Synthesize each design for a Basys 3 device and tally what Vivado REALLY built.   vivado -mode batch -source scripts/synth_all.tcl
-set part xc7a35tcpg236-1
+# Synthesize each design for the PYNQ-Z2 device and tally what Vivado REALLY built.   vivado -mode batch -source scripts/synth_all.tcl
+set part xc7z020clg400-1
 file mkdir reports
 # name, files, top
 set runs {

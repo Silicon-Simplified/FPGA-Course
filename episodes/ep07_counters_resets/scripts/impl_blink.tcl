@@ -1,13 +1,13 @@
 # Silicon Simplified - FPGA Course, Episode 7
-# Full implementation of the two blinkers for the Basys 3, then the reports used in the video.
+# Full implementation of the two blinkers for the PYNQ-Z2, then the reports used in the video.
 #   vivado -mode batch -source scripts/impl_blink.tcl
-set part xc7a35tcpg236-1
+set part xc7z020clg400-1
 file mkdir reports
 set fh [open reports/impl_summary.csv w]
 puts $fh "design,luts,flip_flops,bufg,clock_nets_with_no_clock,wns_ns,tns_ns,failing_endpoints"
 foreach top {top_blink_en top_blink_div} {
     read_verilog [glob rtl/*.v]
-    read_xdc constraints/basys3_blink.xdc
+    read_xdc constraints/pynq_z2_blink.xdc
     synth_design -top $top -part $part
     opt_design
     check_timing -file reports/${top}_check_timing.rpt

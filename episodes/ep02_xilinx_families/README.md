@@ -29,3 +29,5 @@ xc7a = Xilinx, 7 series, Artix   (s Spartan, k Kintex, v Virtex, z Zynq)
 ```
 
 **Challenge:** put the part number from *your* board into `decode_part.tcl` and run it.
+
+`reports/part_decode_z020.txt` (from the second half of `decode_part.tcl`) lists every `xc7z020` part in the database: packages `clg400` (125 usable I/O, the PYNQ-Z2) and `clg484` (200), speed grades -1/-2/-3, and the industrial `xc7z020i` in -1L (-40 to 100 C).

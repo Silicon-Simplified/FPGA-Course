@@ -1,6 +1,6 @@
 # Episode 8 — Finite state machines (companion code)
 
-Every claim in the video is backed by a run: the Vivado simulator (`xsim`) and Vivado 2023.2 synthesis (out-of-context) for the Basys 3 part (`xc7a35tcpg236-1`).
+Every claim in the video is backed by a run: the Vivado simulator (`xsim`) and Vivado 2023.2 synthesis (out-of-context) for the PYNQ-Z2 part (`xc7z020clg400-1`).
 
 | Design | What it shows | Result |
 |---|---|---|

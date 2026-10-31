@@ -1,14 +1,14 @@
 # Episode 4 — Digital logic for FPGA designers (companion code)
 
-Every number in the video comes from these files: Vivado 2023.2 simulation (`xsim`) and implementation for the Basys 3
-part (`xc7a35tcpg236-1`, speed grade -1, out-of-context synthesis + place + route). Testbenches are self-checking.
+Every number in the video comes from these files: Vivado 2023.2 simulation (`xsim`) and implementation for the PYNQ-Z2
+part (`xc7z020clg400-1`, speed grade -1, 125 MHz = 8 ns board clock; out-of-context synthesis + place + route). Testbenches are self-checking.
 
 | Design | What it shows | Result |
 |---|---|---|
 | `rtl/fa_gates.v` / `rtl/fa_rtl.v` | the same full adder as gates vs as behaviour | **both = 2 × LUT3, identical INIT (`96` sum, `E8` carry)** |
 | `rtl/comb_vs_seq.v` | `a & b` combinational vs registered | waveform: comb follows at once, register waits for the clock edge |
-| `rtl/path_demo.v` | reg → add → xor → compare → reg | 10 ns: slack **+5.032 ns**, data path **4.686 ns** (logic 2.185 / route 2.501), 5 logic levels |
-| `rtl/path_demo_piped.v` | same function with one pipeline register | 2 logic levels; slack at 4 ns **+1.037** vs +0.340 unpipelined |
+| `rtl/path_demo.v` | reg → add → xor → compare → reg | 8 ns (125 MHz): slack **+3.480 ns**, data path **4.238 ns** (logic 2.134 / route 2.104), 4 logic levels |
+| `rtl/path_demo_piped.v` | same function with one pipeline register | 2 logic levels; slack at 4 ns **+1.276** (≈ 367 MHz) vs +0.372 (≈ 276 MHz) unpipelined; at 2.5 ns the unpipelined path fails with −1.097 |
 
 ## Run it
 ```bash

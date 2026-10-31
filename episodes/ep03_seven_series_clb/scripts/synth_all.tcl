@@ -1,7 +1,7 @@
 # Silicon Simplified - FPGA Course, Episode 3
-# Synthesize + place every design for a Basys 3 device (out-of-context, so no I/O buffers are added) and
+# Synthesize + place every design for the PYNQ-Z2 device (xc7z020) (out-of-context, so no I/O buffers are added) and
 # tally the REAL primitives Vivado used.   vivado -mode batch -source scripts/synth_all.tcl
-set part xc7a35tcpg236-1
+set part xc7z020clg400-1
 file mkdir reports
 # name  file  top  generics
 set runs {

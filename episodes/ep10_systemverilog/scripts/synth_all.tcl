@@ -1,7 +1,7 @@
 # Silicon Simplified - FPGA Course, Episode 10
 # Does SystemVerilog build the same hardware as Verilog, and what do the "intent" keywords catch?
 #   vivado -mode batch -source scripts/synth_all.tcl
-set part xc7a35tcpg236-1
+set part xc7z020clg400-1
 file mkdir reports
 set fh [open reports/synth_summary.csv w]
 puts $fh "design,status,luts,flip_flops,primitives"

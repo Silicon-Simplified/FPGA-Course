@@ -1,6 +1,6 @@
 # Silicon Simplified - FPGA Course, Episode 6
 # What does Vivado really build for each design?   vivado -mode batch -source scripts/synth_all.tcl
-set part xc7a35tcpg236-1
+set part xc7z020clg400-1
 file mkdir reports
 set runs {reg8_en_rst shift3_nb shift3_blk swap_nb swap_blk sens_bad sens_good multi_driver}
 set fh [open reports/synth_summary.csv w]

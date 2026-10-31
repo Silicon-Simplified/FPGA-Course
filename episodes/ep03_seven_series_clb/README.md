@@ -1,6 +1,6 @@
 # Episode 3 — Inside a 7-series slice (companion code)
 
-Every number in the video comes from these designs, run through **Vivado 2023.2** for the Basys 3 part (`xc7a35tcpg236-1`,
+Every number in the video comes from these designs, run through **Vivado 2023.2** for the PYNQ-Z2 part (`xc7z020clg400-1`; the numbers are identical on the Basys 3 Artix-7 part `xc7a35tcpg236-1`),
 out-of-context synthesis + placement) and from Vivado's device model. All testbenches are self-checking.
 
 | Design | What it shows | Vivado result |

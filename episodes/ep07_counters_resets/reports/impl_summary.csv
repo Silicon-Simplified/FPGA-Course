@@ -1,3 +1,3 @@
-design,primitive_luts,flip_flops,bufg,,wns_ns,,
-top_blink_en,12,31,1,,6.051,,
-top_blink_div,12,31,1,,5.124,,
+design,luts,flip_flops,bufg,clock_nets_with_no_clock,wns_ns,tns_ns,failing_endpoints
+top_blink_en,12,31,1,,3.758,,
+top_blink_div,12,31,1,,3.963,,

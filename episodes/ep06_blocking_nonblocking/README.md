@@ -1,7 +1,7 @@
 # Episode 6 — Blocking vs non-blocking assignments (companion code)
 
 Every claim in the video is backed by a run: the Vivado simulator (`xsim`), Verilator lint, and Vivado 2023.2 synthesis
-for the Basys 3 part (`xc7a35tcpg236-1`, out-of-context).
+for the PYNQ-Z2 part (`xc7z020clg400-1`, out-of-context).
 
 | Design | What it shows | Result |
 |---|---|---|
