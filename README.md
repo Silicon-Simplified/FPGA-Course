@@ -21,6 +21,7 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 6 | Blocking vs non-blocking assignments | [ep06](episodes/ep06_blocking_nonblocking) | coming soon |
 | 7 | Counters, enables and resets done right | [ep07](episodes/ep07_counters_resets) | coming soon |
 | 8 | Finite state machines | [ep08](episodes/ep08_state_machines) | coming soon |
+| 9 | Testbenches that check themselves | [ep09](episodes/ep09_self_checking_tb) | coming soon |
 
 More episodes are added as they are released.
 

@@ -1,0 +1,16 @@
+DIRECTED vectors=8 errors_alu4=0 errors_alu4_bug=0
+PASS: the directed test cannot tell the two ALUs apart
+TIME tb_directed xvlog=2.1 xelab=3.8 xsim=8.3 (seconds)
+RANDOM seed=1 vectors=200 first_failure_at_vector=5 failing_vectors=8 errors_alu4=0
+PASS: random testing with a fixed seed finds the bug, and the good ALU is clean
+TIME tb_random xvlog=2.1 xelab=3.2 xsim=7.0 (seconds)
+SEEDS seeds=50 min=2 max=60 mean=18 never_found=0
+PASS: every one of 50 seeds finds the bug within 2000 random vectors
+TIME tb_seeds xvlog=2.6 xelab=2.6 xsim=7.9 (seconds)
+FIRST FAIL op=7 a=8 b=0 got y=12 expected y=4
+EXHAUSTIVE vectors=2048 errors_alu4=0 errors_alu4_bug=128
+PASS: exhaustive test passes the good ALU and catches the buggy one
+TIME tb_exhaustive xvlog=2.0 xelab=2.6 xsim=7.8 (seconds)
+PIPE cycles=214 errors_2stage=0 errors_1stage=210
+PASS: the scoreboard accepts latency 2 and rejects latency 1
+TIME tb_pipe xvlog=2.2 xelab=2.8 xsim=7.6 (seconds)

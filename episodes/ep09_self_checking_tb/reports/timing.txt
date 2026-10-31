@@ -1,0 +1,5 @@
+TIME tb_directed xvlog=2.1 xelab=3.8 xsim=8.3 (seconds)
+TIME tb_random xvlog=2.1 xelab=3.2 xsim=7.0 (seconds)
+TIME tb_seeds xvlog=2.6 xelab=2.6 xsim=7.9 (seconds)
+TIME tb_exhaustive xvlog=2.0 xelab=2.6 xsim=7.8 (seconds)
+TIME tb_pipe xvlog=2.2 xelab=2.8 xsim=7.6 (seconds)
