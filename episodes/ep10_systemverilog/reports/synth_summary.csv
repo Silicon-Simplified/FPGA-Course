@@ -1,0 +1,9 @@
+design,status,luts,flip_flops,primitives
+fsm_traffic,OK,13,6,"FDRE x6; LUT1 x2; LUT2 x5; LUT3 x2; LUT4 x1; LUT5 x2; LUT6 x1"
+fsm_traffic_sv,OK,13,6,"FDRE x6; LUT1 x2; LUT2 x5; LUT3 x2; LUT4 x1; LUT5 x2; LUT6 x1"
+alu4,OK,20,0,"LUT2 x1; LUT3 x2; LUT4 x1; LUT5 x6; LUT6 x10"
+alu4_sv_top,OK,19,0,"LUT2 x1; LUT3 x2; LUT4 x1; LUT5 x5; LUT6 x10"
+stream_slice_top,OK,3,9,"FDRE x9; LUT2 x1; LUT3 x1; LUT4 x1"
+latch_comb,OK,0,4,"LDCE x4"
+blk_ff,OK,0,1,"FDRE x1"
+multi_drv,ERROR_DRC,,,

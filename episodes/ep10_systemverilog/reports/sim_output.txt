@@ -1,0 +1,29 @@
+STATE NS_G at 30 ns
+STATE NS_Y at 70 ns
+STATE EW_G at 90 ns
+STATE EW_Y at 140 ns
+STATE NS_G at 160 ns
+STATE NS_Y at 210 ns
+STATE EW_G at 230 ns
+STATE EW_Y at 280 ns
+STATE NS_G at 300 ns
+STATE NS_Y at 350 ns
+STATE EW_G at 370 ns
+STATE EW_Y at 420 ns
+STATE NS_G at 440 ns
+STATE NS_Y at 490 ns
+STATE EW_G at 510 ns
+STATE EW_Y at 560 ns
+STATE NS_G at 580 ns
+STATE NS_Y at 630 ns
+STATE EW_G at 650 ns
+STATE EW_Y at 700 ns
+STATE NS_G at 720 ns
+STATE NS_Y at 770 ns
+STATE EW_G at 790 ns
+TRAFFIC cycles=1200 errors=0
+PASS: the SystemVerilog traffic light matches the Verilog one on every cycle
+ALU vectors=2048 errors_vs_reference=0 mismatches_vs_verilog=0
+PASS: the SystemVerilog ALU is exhaustively equal to the reference model and to the Verilog ALU
+STREAM transfers_in=1887 transfers_out=1887 errors=0 backpressure_cycles=1555
+PASS: no word lost, duplicated or reordered under random stalls

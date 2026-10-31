@@ -1,0 +1,11 @@
+LINT OK fsm_traffic_sv
+LINT OK alu4_sv
+LINT OK stream_slice_top
+--- latch_comb
+%Warning-LATCH: rtl/latch_comb.sv:5:5: Latch inferred for signal 'q' (not all control paths of combinational always assign a value)
+%Error: Exiting due to 1 warning(s)
+--- blk_ff
+%Warning-BLKSEQ: rtl/blk_ff.sv:5:12: Blocking assignment '=' in sequential logic process
+%Warning-BLKSEQ: rtl/blk_ff.sv:6:12: Blocking assignment '=' in sequential logic process
+%Error: Exiting due to 2 warning(s)
+--- multi_drv

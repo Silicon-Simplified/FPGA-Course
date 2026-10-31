@@ -1,0 +1,3 @@
+ERROR: [VRFC 10-3818] variable 'q' is driven by invalid combination of procedural drivers [rtl/multi_drv.sv:3]
+WARNING: [VRFC 10-2921] 'q' driven by this always_ff block should not be driven by any other process [rtl/multi_drv.sv:4]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
