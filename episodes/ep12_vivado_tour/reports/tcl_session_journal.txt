@@ -1,0 +1,7 @@
+create_project -force demo demo -part xc7z020clg400-1
+add_files [glob rtl/*.v]
+add_files -fileset constrs_1 constraints/pynq_z2_blink.xdc
+set_property top top_blink_en [current_fileset]
+update_compile_order -fileset sources_1
+puts "TOP = [get_property top [current_fileset]]  SOURCES = [llength [get_files -of_objects [get_filesets sources_1]]]"
+close_project

@@ -1,0 +1,10 @@
+./clockInfo.txt
+./out_np
+./out_np/result.txt
+./out_np/timing.rpt
+./out_np/top_blink_en.bit
+./out_np/utilization.rpt
+./vivado.jou
+./vivado.log
+./.Xil
+./.Xil/top_blink_en_propImpl.xdc

@@ -1,0 +1,15 @@
+./proj_pm
+./proj_pm/proj_pm.cache
+./proj_pm/proj_pm.cache/ip
+./proj_pm/proj_pm.cache/wt
+./proj_pm/proj_pm.hw
+./proj_pm/proj_pm.hw/proj_pm.lpr
+./proj_pm/proj_pm.ip_user_files
+./proj_pm/proj_pm.runs
+./proj_pm/proj_pm.runs/impl_1
+./proj_pm/proj_pm.runs/.jobs
+./proj_pm/proj_pm.runs/synth_1
+./proj_pm/proj_pm.xpr
+./vivado.jou
+./vivado.log
+./.Xil

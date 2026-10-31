@@ -1,0 +1,8 @@
+vivado  [-mode <arg>] [-init] [-source <arg>] [-script <arg>] [-nojournal]
+        [-appjournal] [-journal <arg>] [-nolog] [-applog] [-log <arg>]
+        [-version] [-tclargs <arg>] [-tempDir <arg>] [-robot <arg>] [-verbose]
+        [<project>]
+--
+  [-mode]        Invocation mode, allowed values are 'gui', 'tcl', and 
+                 'batch'
+                 Default: gui
