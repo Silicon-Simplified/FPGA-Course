@@ -1,0 +1,17 @@
+WIDTH 2 bits: wraps=2250 error=0
+WIDTH 3 bits: wraps=1125 error=0
+WIDTH 4 bits: wraps=562 error=0
+WIDTH 5 bits: wraps=281 error=0
+WIDTH 6 bits: wraps=140 error=0
+WIDTH 7 bits: wraps=70 error=0
+WIDTH 8 bits: wraps=35 error=0
+WIDTH 9 bits: wraps=17 error=0
+WIDTH 10 bits: wraps=8 error=0
+WIDTH 11 bits: wraps=4 error=0
+WIDTH 12 bits: wraps=2 error=0
+WIDTHS 2..12 bits, 9000 cycles, flags=000000000000
+PASS: every width of the same counter wraps exactly at 2**W
+LEDBAR vectors=59 errors=0
+PASS: LED bar lights exactly `level` LEDs for N = 8, 16, 32
+ADDERS vectors=65536 errors=0
+PASS: both adders are exhaustively correct

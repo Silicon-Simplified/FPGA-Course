@@ -23,6 +23,7 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 8 | Finite state machines | [ep08](episodes/ep08_state_machines) | coming soon |
 | 9 | Testbenches that check themselves | [ep09](episodes/ep09_self_checking_tb) | coming soon |
 | 10 | SystemVerilog for synthesis | [ep10](episodes/ep10_systemverilog) | coming soon |
+| 11 | Parameters & generate | [ep11](episodes/ep11_parameters_generate) | coming soon |
 
 More episodes are added as they are released.
 
