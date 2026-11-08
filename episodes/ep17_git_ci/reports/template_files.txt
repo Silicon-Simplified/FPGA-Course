@@ -1,0 +1,8 @@
+.github/workflows/ci.yml
+.gitignore
+Makefile
+constraints/pynq_z2.xdc
+rtl/blinky.v
+scripts/build.tcl
+scripts/sim.sh
+tb/tb_blinky.v

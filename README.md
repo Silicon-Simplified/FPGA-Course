@@ -28,6 +28,9 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 13 | First hardware: a blinky, end to end on the PYNQ-Z2 | [ep13](episodes/ep13_first_blinky) | coming soon |
 | 14 | XDC constraints from zero | [ep14](episodes/ep14_xdc_constraints) | coming soon |
 | 15 | Reading synthesis results | [ep15](episodes/ep15_synthesis_results) | coming soon |
+| 16 | Implementation deep dive | [ep16](episodes/ep16_implementation) | coming soon |
+| 17 | Git-friendly Vivado: Tcl builds and CI | [ep17](episodes/ep17_git_ci) | coming soon |
+| 18 | Debug on hardware: ILA and VIO | [ep18](episodes/ep18_ila_vio) | coming soon |
 
 More episodes are added as they are released.
 

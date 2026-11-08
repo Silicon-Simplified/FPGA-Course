@@ -1,0 +1,7 @@
+stage,seconds,wns_ns,tns_ns,failing_endpoints,total_endpoints
+synth_design,22.2,-2.668,-68.456,34,291
+opt_design,4.3,-2.668,-68.456,34,291
+place_design,16.6,-2.802,-69.195,34,291
+phys_opt_design,6.0,-2.572,-64.539,34,293
+route_design,30.3,-2.998,-75.581,34,293
+post_route_phys_opt,1.8,-2.998,-75.581,34,293

@@ -1,0 +1,11 @@
+# Runs on every push: lint and simulate with free open-source tools. A full Vivado build needs a licensed/self-hosted runner (see README).
+name: ci
+on: [push, pull_request]
+jobs:
+  lint-and-sim:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y verilator
+      - run: make lint
+      - run: make test
