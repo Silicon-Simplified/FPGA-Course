@@ -1,0 +1,3 @@
+# per-module synthesis warnings that matter (Vivado 2023.2); Synth 8-7080 'Parallel synthesis criteria' appears in every run and is noise
+WARNING: [Synth 8-327] inferring latch for variable 'q_reg' [zoo.v:54]
+WARNING: [Synth 8-6014] Unused sequential element unused_reg was removed.  [zoo.v:62]

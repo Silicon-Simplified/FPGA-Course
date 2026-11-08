@@ -26,6 +26,8 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 11 | Parameters & generate | [ep11](episodes/ep11_parameters_generate) | coming soon |
 | 12 | A tour of Vivado: project vs non-project mode | [ep12](episodes/ep12_vivado_tour) | coming soon |
 | 13 | First hardware: a blinky, end to end on the PYNQ-Z2 | [ep13](episodes/ep13_first_blinky) | coming soon |
+| 14 | XDC constraints from zero | [ep14](episodes/ep14_xdc_constraints) | coming soon |
+| 15 | Reading synthesis results | [ep15](episodes/ep15_synthesis_results) | coming soon |
 
 More episodes are added as they are released.
 

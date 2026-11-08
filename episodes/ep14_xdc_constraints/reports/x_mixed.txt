@@ -1,0 +1,3 @@
+ERROR: [DRC BIVC-1] Bank IO standard Vcc: Conflicting Vcc voltages in bank 35. For example, the following two ports in this bank have conflicting VCCOs:
+led[2] (LVCMOS18, requiring VCCO=1.800) and clk (LVCMOS33, requiring VCCO=3.300)
+ERROR: [Vivado_Tcl 4-23] Error(s) found during DRC. Placer not run.
