@@ -1,0 +1,5 @@
+1. checking no_clock (37)
+4. checking unconstrained_internal_endpoints (72)
+ There are 37 register/latch pins with no clock driven by root clock pin: clk (HIGH)
+# if {[catch {write_bitstream -force .errwork/err2.bit} e]} { puts "BITSTREAM_FAILED" } else { puts "BITSTREAM_OK" }
+BITSTREAM_OK

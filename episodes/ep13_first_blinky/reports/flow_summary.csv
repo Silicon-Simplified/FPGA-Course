@@ -1,0 +1,2 @@
+luts,flip_flops,bonded_iobs,wns_ns,whs_ns,bit_bytes,t_synth,t_opt,t_place,t_route,t_bitstream
+42,37,8,1.074,0.053,4045666,26.6,4.9,1.5,20.2,19.4

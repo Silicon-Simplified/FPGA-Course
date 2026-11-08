@@ -1,0 +1,5 @@
+SPEED sw=0  cycles between LED steps = 64  (expected 64)
+SPEED sw=1  cycles between LED steps = 32  (expected 32)
+SPEED sw=2  cycles between LED steps = 16  (expected 16)
+SPEED sw=3  cycles between LED steps = 8  (expected 8)
+PASS: LED counter steps every CLK_HZ>>sw cycles and BTN0 resets it

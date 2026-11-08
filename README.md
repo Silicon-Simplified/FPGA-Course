@@ -25,6 +25,7 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 10 | SystemVerilog for synthesis | [ep10](episodes/ep10_systemverilog) | coming soon |
 | 11 | Parameters & generate | [ep11](episodes/ep11_parameters_generate) | coming soon |
 | 12 | A tour of Vivado: project vs non-project mode | [ep12](episodes/ep12_vivado_tour) | coming soon |
+| 13 | First hardware: a blinky, end to end on the PYNQ-Z2 | [ep13](episodes/ep13_first_blinky) | coming soon |
 
 More episodes are added as they are released.
 
