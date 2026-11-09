@@ -31,6 +31,11 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 16 | Implementation deep dive | [ep16](episodes/ep16_implementation) | coming soon |
 | 17 | Git-friendly Vivado: Tcl builds and CI | [ep17](episodes/ep17_git_ci) | coming soon |
 | 18 | Debug on hardware: ILA and VIO | [ep18](episodes/ep18_ila_vio) | coming soon |
+| 19 | Static timing analysis from first principles | [ep19](episodes/ep19_sta_basics) | coming soon |
+| 20 | Clocks: MMCM, PLL and generated clocks | [ep20](episodes/ep20_clocks_mmcm) | coming soon |
+| 21 | Reading timing reports like a pro | [ep21](episodes/ep21_timing_reports) | coming soon |
+| 22 | Fixing timing: pipelining and retiming | [ep22](episodes/ep22_fixing_timing) | coming soon |
+| 23 | I/O timing: input and output delays | [ep23](episodes/ep23_io_timing) | coming soon |
 
 More episodes are added as they are released.
 

@@ -1,0 +1,92 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Nov  9 12:14:48 2026
+| Command      : report_timing -max_paths 1 -setup -to [get_clocks c1] -file reports/path_c1.rpt
+| Design       : clk_demo
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             13.558ns  (required time - arrival time)
+  Source:                 n62_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by c1  {rise@0.000ns fall@8.000ns period=16.000ns})
+  Destination:            n62_reg[21]/D
+                            (rising edge-triggered cell FDRE clocked by c1  {rise@0.000ns fall@8.000ns period=16.000ns})
+  Path Group:             c1
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            16.000ns  (c1 rise@16.000ns - c1 rise@0.000ns)
+  Data Path Delay:        2.400ns  (logic 1.920ns (79.984%)  route 0.480ns (20.016%))
+  Logic Levels:           6  (CARRY4=6)
+  Clock Path Skew:        -0.027ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    -1.310ns = ( 14.690 - 16.000 ) 
+    Source Clock Delay      (SCD):    -0.658ns
+    Clock Pessimism Removal (CPR):    0.624ns
+  Clock Uncertainty:      0.076ns  ((TSJ^2 + DJ^2)^1/2) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Discrete Jitter          (DJ):    0.135ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock c1 rise edge)         0.000     0.000 r  
+    H16                                               0.000     0.000 r  clk (IN)
+                         net (fo=0)                   0.000     0.000    clk
+    H16                  IBUF (Prop_ibuf_I_O)         1.451     1.451 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.285     2.736    clk_IBUF
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.759    -5.023 r  mmcm/CLKOUT1
+                         net (fo=1, routed)           2.206    -2.817    c1
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.101    -2.716 r  b1/O
+                         net (fo=24, routed)          2.058    -0.658    c1_b
+    SLICE_X113Y102       FDRE                                         r  n62_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X113Y102       FDRE (Prop_fdre_C_Q)         0.456    -0.202 r  n62_reg[1]/Q
+                         net (fo=1, routed)           0.480     0.278    n62_reg_n_0_[1]
+    SLICE_X113Y102       CARRY4 (Prop_carry4_S[1]_CO[3])
+                                                      0.674     0.952 r  n62_reg[0]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     0.952    n62_reg[0]_i_1_n_0
+    SLICE_X113Y103       CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     1.066 r  n62_reg[4]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     1.066    n62_reg[4]_i_1_n_0
+    SLICE_X113Y104       CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     1.180 r  n62_reg[8]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     1.180    n62_reg[8]_i_1_n_0
+    SLICE_X113Y105       CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     1.294 r  n62_reg[12]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     1.294    n62_reg[12]_i_1_n_0
+    SLICE_X113Y106       CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     1.408 r  n62_reg[16]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     1.408    n62_reg[16]_i_1_n_0
+    SLICE_X113Y107       CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.334     1.742 r  n62_reg[20]_i_1/O[1]
+                         net (fo=1, routed)           0.000     1.742    n62_reg[20]_i_1_n_6
+    SLICE_X113Y107       FDRE                                         r  n62_reg[21]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock c1 rise edge)        16.000    16.000 r  
+    H16                                               0.000    16.000 r  clk (IN)
+                         net (fo=0)                   0.000    16.000    clk
+    H16                  IBUF (Prop_ibuf_I_O)         1.380    17.380 r  clk_IBUF_inst/O
+                         net (fo=1, routed)           1.162    18.542    clk_IBUF
+    MMCME2_ADV_X1Y2      MMCME2_ADV (Prop_mmcme2_adv_CLKIN1_CLKOUT1)
+                                                     -7.814    10.728 r  mmcm/CLKOUT1
+                         net (fo=1, routed)           2.012    12.740    c1
+    BUFGCTRL_X0Y17       BUFG (Prop_bufg_I_O)         0.091    12.831 r  b1/O
+                         net (fo=24, routed)          1.859    14.690    c1_b
+    SLICE_X113Y107       FDRE                                         r  n62_reg[21]/C
+                         clock pessimism              0.624    15.315    
+                         clock uncertainty           -0.076    15.238    
+    SLICE_X113Y107       FDRE (Setup_fdre_C_D)        0.062    15.300    n62_reg[21]
+  -------------------------------------------------------------------
+                         required time                         15.300    
+                         arrival time                          -1.742    
+  -------------------------------------------------------------------
+                         slack                                 13.558    
+
+
+
+

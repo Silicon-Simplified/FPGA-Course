@@ -1,0 +1,4 @@
+mode,cell,site,iob_prop
+fabric,cs_r_reg,SLICE_X113Y66,FALSE
+fabric,sclk_r_reg,SLICE_X113Y86,FALSE
+fabric,sdo_q_reg,SLICE_X113Y74,FALSE

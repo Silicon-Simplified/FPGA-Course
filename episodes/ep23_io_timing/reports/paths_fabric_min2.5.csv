@@ -1,0 +1,5 @@
+mode,kind,SLACK,DATAPATH_DELAY,DATAPATH_LOGIC_DELAY,DATAPATH_NET_DELAY,INPUT_DELAY,OUTPUT_DELAY,STARTPOINT_PIN,ENDPOINT_PIN,ARRIVAL_TIME,REQUIRED_TIME
+fabric_min2.5,in_setup,4.325,2.335,0.474,1.861,3.000,,sdo,sdo_q_reg/D,5.335,9.660
+fabric_min2.5,in_hold,1.203,4.849,1.448,3.401,2.500,,sdo,sdo_q_reg/D,7.349,6.146
+fabric_min2.5,out_setup,-5.588,5.619,4.080,1.539,,2.000,sclk_r_reg/C,sclk,11.553,5.965
+fabric_min2.5,out_hold,2.383,1.701,1.421,0.281,,-1.000,cs_r_reg/C,cs_n,3.419,1.035

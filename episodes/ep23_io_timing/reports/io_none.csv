@@ -1,0 +1,4 @@
+mode,cell,site,iob_prop
+none,cs_r_reg,SLICE_X110Y86,
+none,sclk_r_reg,SLICE_X111Y86,
+none,sdo_q_reg,SLICE_X113Y86,

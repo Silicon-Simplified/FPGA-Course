@@ -1,0 +1,1 @@
+PASS: the SPI reader captured 0xa5c from the ADC model (led = a)

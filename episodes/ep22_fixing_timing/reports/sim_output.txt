@@ -1,0 +1,2 @@
+PASS: pipe_1..4 sums equal pipe_0 sum delayed by 1..4 cycles (4400 comparisons)
+(sanity: a deliberately misaligned comparison reports FAIL)

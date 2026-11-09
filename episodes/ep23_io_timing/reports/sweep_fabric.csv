@@ -1,0 +1,5 @@
+mode,input_delay_max_ns,in_setup_slack_ns
+fabric,3.0,2.853
+fabric,5.0,0.853
+fabric,6.5,-0.647
+fabric,7.5,-1.647

@@ -1,0 +1,5 @@
+mode,input_delay_max_ns,in_setup_slack_ns
+iob_min2.5,3.0,1.742
+iob_min2.5,5.0,-0.258
+iob_min2.5,6.5,-1.758
+iob_min2.5,7.5,-2.758

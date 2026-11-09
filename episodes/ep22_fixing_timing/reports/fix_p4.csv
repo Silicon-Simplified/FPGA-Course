@@ -1,0 +1,2 @@
+tag,luts,ffs,wns_ns,tns_ns,failing,total_endpoints,whs_ns,worst_logic_levels,worst_datapath_ns
+p4,762,1582,4.547,0.000,0,1581,0.153,10,3.415

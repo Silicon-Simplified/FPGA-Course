@@ -1,0 +1,3 @@
+CRITICAL WARNING: [DRC AVAL-46] v7v8_mmcm_fvco_rule1: The current computed target frequency, FVCO, is out of range for cell mmcm. The computed FVCO is 500.000 MHz. The valid FVCO range for speed grade -1 is 600MHz to 1200MHz.
+ERROR: [DRC PDRC-34] MMCM_adv_ClkFrequency_div_no_dclk: The computed value 500.000 MHz (CLKIN1_PERIOD, net clk_IBUF) for the VCO operating frequency of the MMCME2_ADV site MMCME2_ADV_X1Y2 (cell mmcm) falls outside the operating range of the MMCM VCO 
+ERROR: [Vivado_Tcl 4-16] Error(s) found during DRC. Router not run.

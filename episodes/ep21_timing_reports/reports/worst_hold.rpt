@@ -1,0 +1,55 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Nov  9 12:30:24 2026
+| Command      : report_timing -max_paths 1 -hold -file reports/worst_hold.rpt
+| Design       : fail_demo
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             0.110ns  (arrival time - required time)
+  Source:                 sh_reg[430]/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Destination:            sh_reg[431]/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@4.000ns period=8.000ns})
+  Path Group:             clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (clk rise@0.000ns - clk rise@0.000ns)
+  Data Path Delay:        0.209ns  (logic 0.141ns (67.433%)  route 0.068ns (32.567%))
+  Logic Levels:           0  
+  Clock Path Skew:        0.022ns (DCD - SCD - CPR)
+    Destination Clock Delay (DCD):    0.432ns
+    Source Clock Delay      (SCD):    0.410ns
+    Clock Pessimism Removal (CPR):    -0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=805, unset)          0.410     0.410    clk
+    SLICE_X47Y24         FDRE                                         r  sh_reg[430]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X47Y24         FDRE (Prop_fdre_C_Q)         0.141     0.551 r  sh_reg[430]/Q
+                         net (fo=3, routed)           0.068     0.619    p_12_in[14]
+    SLICE_X47Y24         FDRE                                         r  sh_reg[431]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=805, unset)          0.432     0.432    clk
+    SLICE_X47Y24         FDRE                                         r  sh_reg[431]/C
+                         clock pessimism              0.000     0.432    
+    SLICE_X47Y24         FDRE (Hold_fdre_C_D)         0.078     0.510    sh_reg[431]
+  -------------------------------------------------------------------
+                         required time                         -0.510    
+                         arrival time                           0.619    
+  -------------------------------------------------------------------
+                         slack                                  0.110    
+
+
+
+

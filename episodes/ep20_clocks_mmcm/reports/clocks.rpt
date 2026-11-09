@@ -1,0 +1,66 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Nov  9 12:14:46 2026
+| Command      : report_clocks -file reports/clocks.rpt
+| Design       : clk_demo
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Report
+
+
+Attributes
+  P: Propagated
+  G: Generated
+  A: Auto-derived
+  R: Renamed
+  V: Virtual
+  I: Inverted
+  S: Pin phase-shifted with Latency mode
+
+Clock    Period(ns)  Waveform(ns)   Attributes  Sources
+sys_clk  8.000       {0.000 4.000}  P           {clk}
+c0       4.000       {0.000 2.000}  P,G,A       {mmcm/CLKOUT0}
+c1       16.000      {0.000 8.000}  P,G,A       {mmcm/CLKOUT1}
+fb       8.000       {0.000 4.000}  P,G,A       {mmcm/CLKFBOUT}
+
+
+====================================================
+Generated Clocks
+====================================================
+
+Generated Clock     : c0
+Master Source       : mmcm/CLKIN1
+Master Clock        : sys_clk
+Multiply By         : 2
+Generated Sources   : {mmcm/CLKOUT0}
+
+Generated Clock     : c1
+Master Source       : mmcm/CLKIN1
+Master Clock        : sys_clk
+Edges               : {1 2 3}
+Edge Shifts(ns)     : {0.000 4.000 8.000}
+Generated Sources   : {mmcm/CLKOUT1}
+
+Generated Clock     : fb
+Master Source       : mmcm/CLKIN1
+Master Clock        : sys_clk
+Multiply By         : 1
+Generated Sources   : {mmcm/CLKFBOUT}
+
+
+
+====================================================
+User Uncertainty
+====================================================
+
+
+
+====================================================
+User Jitter
+====================================================
+
+

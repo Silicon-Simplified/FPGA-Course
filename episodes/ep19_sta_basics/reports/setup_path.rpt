@@ -1,0 +1,73 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Nov  9 12:07:28 2026
+| Command      : report_timing -from [get_cells a_r_reg*] -to [get_cells s_r_reg*] -delay_type max -file reports/setup_path.rpt
+| Design       : sta_demo
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             2.808ns  (required time - arrival time)
+  Source:                 a_r_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Destination:            s_r_reg[13]/D
+                            (rising edge-triggered cell FDRE clocked by clk  {rise@0.000ns fall@2.500ns period=5.000ns})
+  Path Group:             clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            5.000ns  (clk rise@5.000ns - clk rise@0.000ns)
+  Data Path Delay:        2.170ns  (logic 1.525ns (70.272%)  route 0.645ns (29.728%))
+  Logic Levels:           4  (CARRY4=4)
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 5.924 - 5.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=49, unset)           0.973     0.973    clk
+    SLICE_X57Y73         FDRE                                         r  a_r_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+    SLICE_X57Y73         FDRE (Prop_fdre_C_Q)         0.456     1.429 r  a_r_reg[1]/Q
+                         net (fo=2, routed)           0.636     2.065    a_r[1]
+    SLICE_X56Y73         CARRY4 (Prop_carry4_DI[1]_CO[3])
+                                                      0.507     2.572 r  s_r_reg[3]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.572    s_r_reg[3]_i_1_n_0
+    SLICE_X56Y74         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.686 r  s_r_reg[7]_i_1/CO[3]
+                         net (fo=1, routed)           0.009     2.695    s_r_reg[7]_i_1_n_0
+    SLICE_X56Y75         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.114     2.809 r  s_r_reg[11]_i_1/CO[3]
+                         net (fo=1, routed)           0.000     2.809    s_r_reg[11]_i_1_n_0
+    SLICE_X56Y76         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.334     3.143 r  s_r_reg[15]_i_1/O[1]
+                         net (fo=1, routed)           0.000     3.143    p_0_in[13]
+    SLICE_X56Y76         FDRE                                         r  s_r_reg[13]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        5.000     5.000 r  
+                                                      0.000     5.000 r  clk (IN)
+                         net (fo=49, unset)           0.924     5.924    clk
+    SLICE_X56Y76         FDRE                                         r  s_r_reg[13]/C
+                         clock pessimism              0.000     5.924    
+                         clock uncertainty           -0.035     5.889    
+    SLICE_X56Y76         FDRE (Setup_fdre_C_D)        0.062     5.951    s_r_reg[13]
+  -------------------------------------------------------------------
+                         required time                          5.951    
+                         arrival time                          -3.143    
+  -------------------------------------------------------------------
+                         slack                                  2.808    
+
+
+
+

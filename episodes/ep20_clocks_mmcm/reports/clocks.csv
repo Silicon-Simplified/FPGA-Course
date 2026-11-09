@@ -1,0 +1,5 @@
+clock,period_ns,is_generated,master,wns_ns,whs_ns
+sys_clk,8.000,0,,,
+fb,8.000,1,sys_clk,,
+c0,4.000,1,sys_clk,1.467,0.252
+c1,16.000,1,sys_clk,13.558,0.252

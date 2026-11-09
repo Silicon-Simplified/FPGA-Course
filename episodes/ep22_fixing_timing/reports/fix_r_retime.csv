@@ -1,0 +1,2 @@
+tag,luts,ffs,wns_ns,tns_ns,failing,total_endpoints,whs_ns,worst_logic_levels,worst_datapath_ns
+r_retime,680,1203,2.169,0.000,0,1202,0.099,6,5.778

@@ -1,0 +1,25 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Nov  9 12:30:24 2026
+| Command      : report_high_fanout_nets -max_nets 5 -file reports/high_fanout.rpt
+| Design       : fail_demo
+| Device       : xc7z020
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+High Fan-out Nets Information
+
+1. Summary
+----------
+
++----------------------+--------+-------------+
+| Net Name             | Fanout | Driver Type |
++----------------------+--------+-------------+
+| sum_reg[19]_i_13_n_4 |      5 | CARRY4      |
+| sum_reg[19]_i_13_n_6 |      5 | CARRY4      |
+| sum_reg[19]_i_14_n_4 |      5 | CARRY4      |
+| sum_reg[19]_i_14_n_6 |      5 | CARRY4      |
+| sum_reg[19]_i_15_n_4 |      5 | CARRY4      |
++----------------------+--------+-------------+
+
+
