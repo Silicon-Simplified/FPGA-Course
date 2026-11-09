@@ -1,0 +1,27 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Nov  9 14:55:07 2026
+| Command      : report_cdc -details -file reports/cdc_details_cdc_bad.rpt
+| Design       : cdc_bad
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+ID     Severity  Count  Description
+-----  --------  -----  -------------------------------
+CDC-1  Critical      1  1-bit unknown CDC circuitry
+CDC-4  Critical      1  Multi-bit unknown CDC circuitry
+
+Source Clock: c0
+Destination Clock: c1
+CDC Type: User Ignored
+
+Row  ID     Severity  Description                      Depth  Exception            Source (From)     Destination (To)
+---  -----  --------  -------------------------------  -----  -------------------  ----------------  ----------------
+  1  CDC-4  Critical  Multi-bit unknown CDC circuitry      0  Asynch Clock Groups  cnt_a_reg[1:0]/C  bus_b_reg[1:0]/D
+  2  CDC-1  Critical  1-bit unknown CDC circuitry          0  Asynch Clock Groups  cnt_a_reg[7]/C    flag_b_reg/D
+

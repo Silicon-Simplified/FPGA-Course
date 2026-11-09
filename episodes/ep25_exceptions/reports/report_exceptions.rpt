@@ -1,0 +1,23 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Nov  9 15:37:11 2026
+| Command      : report_exceptions -file reports/report_exceptions.rpt
+| Design       : exc_demo
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Exceptions Report
+
+Position  From                     Through         To                       Setup           Hold            Status           
+--------  -----------------------  --------------  -----------------------  --------------  --------------  -----------------
+2         [get_ports {btn din}]    *               *                        false           false           
+3         *                        *               [get_ports {led[*]}]     false           false           
+4         [get_cells p1_cfg_reg*]  *               *                        false           false           
+5         [get_cells p2_src_reg*]  *               [get_cells p2_dst_reg*]  cycles=2        -               Invalid endpoint 
+6         [get_cells p2_src_reg*]  *               [get_cells p2_dst_reg*]  -               cycles=1        Invalid endpoint 
+10        [get_clocks { c1 }]                      [get_clocks { c0 }]      clock_group     clock_group     Non-existent path
+10        [get_clocks { c0 }]                      [get_clocks { c1 }]      clock_group     clock_group     
+

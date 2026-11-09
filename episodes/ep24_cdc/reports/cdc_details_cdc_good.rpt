@@ -1,0 +1,51 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Nov  9 14:55:09 2026
+| Command      : report_cdc -details -file reports/cdc_details_cdc_good.rpt
+| Design       : cdc_good
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+ID     Severity  Count  Description
+-----  --------  -----  ------------------------------------------
+CDC-3  Info         20  1-bit synchronized with ASYNC_REG property
+
+Source Clock: c1
+Destination Clock: c0
+CDC Type: User Ignored
+
+Row  ID     Severity  Description                                 Depth  Exception            Source (From)       Destination (To)
+---  -----  --------  ------------------------------------------  -----  -------------------  ------------------  ------------------
+  1  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  f/rgray_q_reg[0]/C  f/sy[0].b/s1_reg/D
+  2  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  f/rgray_q_reg[1]/C  f/sy[1].b/s1_reg/D
+  3  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  f/rgray_q_reg[2]/C  f/sy[2].b/s1_reg/D
+  4  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  f/rgray_q_reg[3]/C  f/sy[3].b/s1_reg/D
+  5  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  f/rgray_q_reg[4]/C  f/sy[4].b/s1_reg/D
+
+Source Clock: c0
+Destination Clock: c1
+CDC Type: User Ignored
+
+Row  ID     Severity  Description                                 Depth  Exception            Source (From)       Destination (To)
+---  -----  --------  ------------------------------------------  -----  -------------------  ------------------  ------------------
+  1  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  f/wgray_q_reg[0]/C  f/sy[0].a/s1_reg/D
+  2  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  f/wgray_q_reg[1]/C  f/sy[1].a/s1_reg/D
+  3  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  f/wgray_q_reg[2]/C  f/sy[2].a/s1_reg/D
+  4  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  f/wgray_q_reg[3]/C  f/sy[3].a/s1_reg/D
+  5  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  f/wgray_q_reg[4]/C  f/sy[4].a/s1_reg/D
+  6  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  gray_q_reg[0]/C     gs[0].s/s1_reg/D
+  7  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  gray_q_reg[1]/C     gs[1].s/s1_reg/D
+  8  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  gray_q_reg[2]/C     gs[2].s/s1_reg/D
+  9  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  gray_q_reg[3]/C     gs[3].s/s1_reg/D
+ 10  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  gray_q_reg[4]/C     gs[4].s/s1_reg/D
+ 11  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  gray_q_reg[5]/C     gs[5].s/s1_reg/D
+ 12  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  gray_q_reg[6]/C     gs[6].s/s1_reg/D
+ 13  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  gray_q_reg[7]/C     gs[7].s/s1_reg/D
+ 14  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  ps/tog_reg/C        ps/s/s1_reg/D
+ 15  CDC-3  Info      1-bit synchronized with ASYNC_REG property      2  Asynch Clock Groups  cnt_a_reg[7]/C      s1/s1_reg/D
+

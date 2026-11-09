@@ -1,0 +1,9 @@
+step,wns_ns,tns_ns,failing,endpoints,whs_ns,p1_setup,p2_setup,p2_hold,x_setup,gray_setup
+0_no_exceptions,-0.638,-9.802,33,1524,0.118,-0.487,-0.442,0.699,0.905,1.203
+1_false_path_cfg,-0.638,-9.802,33,1524,0.118,,-0.442,0.699,0.905,1.203
+2a_multicycle_setup_only,-0.638,-7.066,22,1524,-7.337,,7.558,-7.337,0.905,1.203
+2b_multicycle_setup_and_hold,-0.638,-7.066,22,1524,0.118,,7.558,0.699,0.905,1.203
+3a_max_delay_datapath_only_4.0,-0.638,-7.066,22,1524,0.118,,7.558,0.699,0.905,1.750
+3b_max_delay_datapath_only_1.0,-1.250,-15.873,30,1524,0.118,,7.558,0.699,0.905,-1.250
+4_clock_groups_async,-0.638,-7.066,22,1508,0.118,,7.558,0.699,,
+5_ABUSE_false_path_sysclk_to_sysclk,1.193,0.000,0,24,0.121,,,,,

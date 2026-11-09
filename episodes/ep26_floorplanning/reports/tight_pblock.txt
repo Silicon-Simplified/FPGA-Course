@@ -1,0 +1,5 @@
+tight Pblock (SLICE_X0Y0:SLICE_X4Y9, aligned by Vivado to SLICE_X0Y0:SLICE_X5Y9 = 60 slice sites):
+  WARNING Vivado 12-4775 ranges aligned to a tile boundary
+  WARNING Place 30-769 high register utilization forcing up to 8 registers per slice in pblock pb_l0
+  DRC UTLZ-3 Warning: Slice over-utilized in Pblock pb_l0: requires 79, only 60 compatible sites
+  pblock property IS_SOFT = 1 ; lane 0 leaf cells inside the pblock: 502, outside: 203

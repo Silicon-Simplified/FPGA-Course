@@ -1,0 +1,4 @@
+Incremental compile of a one-inverter RTL change (lane l3 SEED 3 -> 2), reference = the routed 'auto' run (read_checkpoint -incremental):
+  Incremental Routing Reuse Summary: fully reused nets 1605 (99.94%), partially reused 1 (0.06%), non-reused 0
+  Reuse Summary: reused instances 2117 (100.00%), non-reused instances 0
+  directive RuntimeOptimized (Vivado 12-9151); opt_design is skipped after read_checkpoint -incremental

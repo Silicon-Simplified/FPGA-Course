@@ -1,0 +1,46 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Nov  9 15:48:30 2026
+| Command      : report_drc -file reports/drc_tight.rpt
+| Design       : fp_demo
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: checkpoint_tight
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 2
++--------+----------+----------------------+------------+
+| Rule   | Severity | Description          | Violations |
++--------+----------+----------------------+------------+
+| UTLZ-3 | Warning  | Resource utilization | 1          |
+| ZPS7-1 | Warning  | PS7 block required   | 1          |
++--------+----------+----------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+UTLZ-3#1 Warning
+Resource utilization  - PBlock:pb_l0
+Slice over-utilized in Pblock pb_l0 (This design requires more Slice cells than are available in Pblock 'pb_l0'. This design requires 79 of such cell types but only 60 compatible sites are available in Pblock 'pb_l0'. Please consider increasing the span of Pblock 'pb_l0' or removing cells from it.)
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

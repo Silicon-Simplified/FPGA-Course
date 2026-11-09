@@ -1,0 +1,2 @@
+SKEW_RESULT samples=20000 bad_binary=1455 bad_gray=0
+FIFO_PASS words=3000 errors=0 (full seen 5846 times, empty seen 3 times)

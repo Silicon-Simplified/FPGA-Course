@@ -36,6 +36,9 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 21 | Reading timing reports like a pro | [ep21](episodes/ep21_timing_reports) | coming soon |
 | 22 | Fixing timing: pipelining and retiming | [ep22](episodes/ep22_fixing_timing) | coming soon |
 | 23 | I/O timing: input and output delays | [ep23](episodes/ep23_io_timing) | coming soon |
+| 24 | Clock domain crossing | [ep24](episodes/ep24_cdc) | coming soon |
+| 25 | Timing exceptions: use and abuse | [ep25](episodes/ep25_exceptions) | coming soon |
+| 26 | Physical design: floorplanning and Pblocks | [ep26](episodes/ep26_floorplanning) | coming soon |
 
 More episodes are added as they are released.
 
