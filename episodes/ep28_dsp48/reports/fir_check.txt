@@ -1,0 +1,7 @@
+taps=8
+samples_compared=598
+latency_clocks=2
+max_abs_error=0
+dc_gain=1.0
+gain_at_0p45=0.0068
+coeff_sum=32768

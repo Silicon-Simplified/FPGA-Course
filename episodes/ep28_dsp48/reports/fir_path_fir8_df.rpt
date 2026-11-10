@@ -1,0 +1,63 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Nov  9 21:20:44 2026
+| Command      : report_timing -max_paths 1 -file reports/fir_path_fir8_df.rpt
+| Design       : fir8_df
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack (MET) :             0.221ns  (required time - arrival time)
+  Source:                 s2_reg/CLK
+                            (rising edge-triggered cell DSP48E1 clocked by clk  {rise@0.000ns fall@2.000ns period=4.000ns})
+  Destination:            t1_reg/A[16]
+                            (rising edge-triggered cell DSP48E1 clocked by clk  {rise@0.000ns fall@2.000ns period=4.000ns})
+  Path Group:             clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            4.000ns  (clk rise@4.000ns - clk rise@0.000ns)
+  Data Path Delay:        1.737ns  (logic 0.434ns (24.993%)  route 1.303ns (75.007%))
+  Logic Levels:           0  
+  Clock Path Skew:        -0.049ns (DCD - SCD + CPR)
+    Destination Clock Delay (DCD):    0.924ns = ( 4.924 - 4.000 ) 
+    Source Clock Delay      (SCD):    0.973ns
+    Clock Pessimism Removal (CPR):    0.000ns
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock clk rise edge)        0.000     0.000 r  
+                                                      0.000     0.000 r  clk (IN)
+                         net (fo=40, unset)           0.973     0.973    clk
+    DSP48_X2Y38          DSP48E1                                      r  s2_reg/CLK
+  -------------------------------------------------------------------    -------------------
+    DSP48_X2Y38          DSP48E1 (Prop_dsp48e1_CLK_P[34])
+                                                      0.434     1.407 r  s2_reg/P[34]
+                         net (fo=14, routed)          1.303     2.710    s2_reg_n_71
+    DSP48_X2Y40          DSP48E1                                      r  t1_reg/A[16]
+  -------------------------------------------------------------------    -------------------
+
+                         (clock clk rise edge)        4.000     4.000 r  
+                                                      0.000     4.000 r  clk (IN)
+                         net (fo=40, unset)           0.924     4.924    clk
+    DSP48_X2Y40          DSP48E1                                      r  t1_reg/CLK
+                         clock pessimism              0.000     4.924    
+                         clock uncertainty           -0.035     4.889    
+    DSP48_X2Y40          DSP48E1 (Setup_dsp48e1_CLK_A[16])
+                                                     -1.958     2.931    t1_reg
+  -------------------------------------------------------------------
+                         required time                          2.931    
+                         arrival time                          -2.710    
+  -------------------------------------------------------------------
+                         slack                                  0.221    
+
+
+
+

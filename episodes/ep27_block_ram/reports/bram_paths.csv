@@ -1,0 +1,3 @@
+top,doa_reg,bram_path_slack_ns,bram_path_datapath_ns,period_ns
+t_plain,0,-0.435,3.27,3.0
+t_oreg,1,1.006,1.852,3.0

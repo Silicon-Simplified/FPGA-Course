@@ -1,0 +1,22 @@
+LOOPBACK sent=256 received=256 errors=0
+TOL error=-9% bad_bytes=36 of 40
+TOL error=-8% bad_bytes=35 of 40
+TOL error=-7% bad_bytes=30 of 40
+TOL error=-6% bad_bytes=14 of 40
+TOL error=-5% bad_bytes=0 of 40
+TOL error=-4% bad_bytes=0 of 40
+TOL error=-3% bad_bytes=0 of 40
+TOL error=-2% bad_bytes=0 of 40
+TOL error=-1% bad_bytes=0 of 40
+TOL error=0% bad_bytes=0 of 40
+TOL error=1% bad_bytes=0 of 40
+TOL error=2% bad_bytes=0 of 40
+TOL error=3% bad_bytes=0 of 40
+TOL error=4% bad_bytes=0 of 40
+TOL error=5% bad_bytes=0 of 40
+TOL error=6% bad_bytes=11 of 40
+TOL error=7% bad_bytes=27 of 40
+TOL error=8% bad_bytes=36 of 40
+TOL error=9% bad_bytes=36 of 40
+BREAK framing_error=1
+HIBAUD 921600: divider=8 actual_baud=976562 bad_bytes=49 of 200

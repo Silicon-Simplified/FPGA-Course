@@ -1,0 +1,9 @@
+samples=16384
+K=33292288
+f_expected_hz=968933.105
+f_measured_hz=968992.2
+max=2047
+min=-2047
+fundamental_bin=127
+sfdr_dbc=60.14
+worst_spur_bin=1151

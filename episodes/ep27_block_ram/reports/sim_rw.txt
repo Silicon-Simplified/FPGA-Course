@@ -1,0 +1,5 @@
+RW write 0xAA over old 0x11 at the same address; the output after that clock edge:  read_first=11  write_first=aa  no_change=77
+RW next cycle, reading the address again:                                             read_first=aa  write_first=aa  no_change=aa
+LAT address changed to 256; after 1 clock edge(s): rom_bram=7ff  rom_bram_oreg=000
+LAT address changed to 256; after 2 clock edge(s): rom_bram=7ff  rom_bram_oreg=7ff
+LAT address changed to 256; after 3 clock edge(s): rom_bram=7ff  rom_bram_oreg=7ff

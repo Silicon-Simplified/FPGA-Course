@@ -39,6 +39,10 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 24 | Clock domain crossing | [ep24](episodes/ep24_cdc) | coming soon |
 | 25 | Timing exceptions: use and abuse | [ep25](episodes/ep25_exceptions) | coming soon |
 | 26 | Physical design: floorplanning and Pblocks | [ep26](episodes/ep26_floorplanning) | coming soon |
+| 27 | Block RAM and distributed RAM | [ep27](episodes/ep27_block_ram) | coming soon |
+| 28 | DSP48 inference | [ep28](episodes/ep28_dsp48) | coming soon |
+| 29 | FIFOs: synchronous and asynchronous | [ep29](episodes/ep29_fifos) | coming soon |
+| 30 | UART from scratch | [ep30](episodes/ep30_uart) | coming soon |
 
 More episodes are added as they are released.
 

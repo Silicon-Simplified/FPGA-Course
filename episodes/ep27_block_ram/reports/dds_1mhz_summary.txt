@@ -1,0 +1,6 @@
+samples=20000
+K=34359738
+f_expected_hz=999999.989
+f_measured_hz=1000000.0
+max=2047
+min=-2047

@@ -1,0 +1,18 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
+| Date         : Mon Nov  9 21:59:59 2026
+| Command      : report_cdc -summary -file reports/xpm_cdc_summary.rpt
+| Design       : xa
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+Severity  Source Clock  Destination Clock  CDC Type                 Exceptions           Endpoints  Safe  Unsafe  Unknown  No ASYNC_REG  
+--------  ------------  -----------------  -----------------------  -------------------  ---------  ----  ------  -------  ------------  
+Info      wclk          rclk               No Common Primary Clock  Asynch Clock Groups          1     1       0        0             0  
+Info      rclk          wclk               No Common Primary Clock  Asynch Clock Groups          1     1       0        0             0  
+

@@ -1,0 +1,4 @@
+B before rd_en:      fwft dout=cafe (already there, empty=0)   std dout=0000
+B 1 clock after rd_en:  std dout=cafe
+A integrity: 5000 words written, 5000 read, 0 errors
+C burst of 100 at 1 word/clk, reader 1 word / 2 clk:  depth 32: peak occupancy 32, dropped writes 19   |   depth 64: peak occupancy 51, dropped writes 0

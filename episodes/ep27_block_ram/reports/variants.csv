@@ -1,0 +1,9 @@
+module,lut,lutram,ff,ramb18,ramb36,dsp,write_mode_a,doa_reg
+rom_bram,0,0,0,1,0,0,WRITE_FIRST,0
+rom_bram_oreg,0,0,0,1,0,0,WRITE_FIRST,1
+rom_dist,151,0,0,0,0,0,,
+ram_readfirst,0,0,0,1,0,0,READ_FIRST,0
+ram_writefirst,0,0,0,1,0,0,WRITE_FIRST,0
+ram_nochange,0,0,0,1,0,0,NO_CHANGE,0
+ram_tdp,0,0,0,1,0,0,READ_FIRST,0
+dds,64,0,44,1,0,0,WRITE_FIRST,1
