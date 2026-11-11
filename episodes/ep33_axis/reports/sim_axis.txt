@@ -1,0 +1,8 @@
+AXIS A (always valid, always ready): 4096 of 4096 words, 0 errors, 0 protocol violations; 4096 words in 4096 clocks
+AXIS B (valid 50%, ready 50%): 4096 of 4096 words, 0 errors, 0 protocol violations; 4096 words in 11034 clocks
+AXIS C (valid 100%, ready 25%): 4096 of 4096 words, 0 errors, 0 protocol violations; 4096 words in 16531 clocks
+AXIS D (valid 25%, ready 100%): 4096 of 4096 words, 0 errors, 0 protocol violations; 4096 words in 15710 clocks
+AXIS bug (tready always 1) A: 4096 of 4096 words, 0 errors, 0 protocol violations
+AXIS bug (tready always 1) B: 2010 of 4096 words, 2010 errors, 2086 protocol violations
+AXIS bug (tready always 1) C: 1015 of 4096 words, 1014 errors, 3081 protocol violations
+AXIS bug (tready always 1) D: 4096 of 4096 words, 0 errors, 0 protocol violations
