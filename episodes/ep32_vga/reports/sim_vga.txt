@@ -1,0 +1,7 @@
+VGA line = 800 clocks (bad lines: 0), hsync low = 96 clocks
+VGA frame = 420000 clocks = 525 lines (bad frames: 0), vsync low = 1600 clocks = 2 lines
+VGA visible pixels per frame = 307200 (bad frames: 0)
+VGA colour outside the picture: 0 clocks non-black
+VGA logo: 600 frames, 5 bounces, 0 positions out of bounds
+VGA pixel clock 25 MHz -> line 31250 Hz, frame 59.52 Hz
+VGA mutation (blanking removed): colour outside the picture: 67567201 clocks non-black
