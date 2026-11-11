@@ -18,8 +18,16 @@ def find_episodes(start):                              # the folder that contain
 
 EPS = find_episodes(HERE) if len(sys.argv) < 3 else ""
 args = sys.argv[1:]
-m35 = args[0] if len(args) > 0 else os.path.join(EPS, "ep35_axil", "code", "reports", "address_map.txt")
-m37 = args[1] if len(args) > 1 else os.path.join(EPS, "ep37_irq", "code", "reports", "address_map.txt")
+def amap(ep):                                          # the course folder keeps the reports under <episode>/code/reports, the GitHub repo under <episode>/reports
+    for sub in (("code", "reports"), ("reports",)):
+        p = os.path.join(EPS, ep, *sub, "address_map.txt")
+        if os.path.exists(p):
+            return p
+    sys.exit(f"no address_map.txt found for {ep}")
+
+
+m35 = args[0] if len(args) > 0 else amap("ep35_axil")
+m37 = args[1] if len(args) > 1 else amap("ep37_irq")
 
 
 def seg(path):
