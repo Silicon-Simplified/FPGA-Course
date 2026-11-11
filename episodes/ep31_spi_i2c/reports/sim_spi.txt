@@ -1,0 +1,5 @@
+SPI mode 0 (CPOL=0 CPHA=0): 256 bytes, 256 ok, 0 errors; one byte took 1632 ns
+SPI SCLK = clk / (2*12) = 5208 kHz
+SPI mode 1 (CPOL=0 CPHA=1): 256 bytes, 256 ok, 0 errors; one byte took 1632 ns
+SPI mode 2 (CPOL=1 CPHA=0): 256 bytes, 256 ok, 0 errors; one byte took 1632 ns
+SPI mode 3 (CPOL=1 CPHA=1): 256 bytes, 256 ok, 0 errors; one byte took 1632 ns

@@ -1,0 +1,8 @@
+I2C read reg[4] = 11
+I2C read reg[5] = 22
+I2C read reg[6] = 33
+I2C read reg[7] = 44
+I2C write 4 bytes: 0 errors (all ACKs seen); transaction took 559 us
+I2C readback errors in total: 0
+I2C wrong address 0x51: NACK seen = 1
+I2C starts seen by the slave: 4 (write, read, repeated read, wrong address); SCL = clk / (4*312) = 100160 Hz

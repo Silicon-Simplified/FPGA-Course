@@ -43,6 +43,7 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 28 | DSP48 inference | [ep28](episodes/ep28_dsp48) | coming soon |
 | 29 | FIFOs: synchronous and asynchronous | [ep29](episodes/ep29_fifos) | coming soon |
 | 30 | UART from scratch | [ep30](episodes/ep30_uart) | coming soon |
+| 31 | SPI & I²C masters | [ep31](episodes/ep31_spi_i2c) | coming soon |
 
 More episodes are added as they are released.
 
