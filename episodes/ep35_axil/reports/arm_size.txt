@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+    385	      0	      0	    385	    181	hello_pwm.o

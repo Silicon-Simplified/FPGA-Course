@@ -1,0 +1,3 @@
+AXIL mut 0: 93 checks, 0 errors; write 3 clocks, read 3 clocks; PWM high clocks in 10 periods: 0 2500 5000 10000
+AXIL mut 1: 93 checks, 2 errors; write 3 clocks, read 3 clocks; PWM high clocks in 10 periods: 0 2500 5000 10000
+AXIL mut 2: 93 checks, 23 errors; write 3 clocks, read 3 clocks; PWM high clocks in 10 periods: 0 0 0 0

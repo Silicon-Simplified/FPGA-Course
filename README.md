@@ -47,6 +47,7 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 32 | VGA display controller | [ep32](episodes/ep32_vga) | coming soon |
 | 33 | IP Integrator & AXI-Stream | [ep33](episodes/ep33_axis) | coming soon |
 | 34 | Zynq architecture: PS + PL | [ep34](episodes/ep34_zynq) | coming soon |
+| 35 | Custom AXI4-Lite IP + C driver | [ep35](episodes/ep35_axil) | coming soon |
 
 More episodes are added as they are released.
 
