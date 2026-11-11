@@ -1,0 +1,6 @@
+AVG A (always/always): 4096 of 4096 words, 0 wrong values, 0 wrong TLAST; 4096 words in 4096 clocks
+AVG B (50%/50%): 4096 of 4096 words, 0 wrong values, 0 wrong TLAST; 4096 words in 11034 clocks
+AVG C (slow sink 25%): 4096 of 4096 words, 0 wrong values, 0 wrong TLAST; 4096 words in 16531 clocks
+AVG D (slow source 25%): 4096 of 4096 words, 0 wrong values, 0 wrong TLAST; 4096 words in 15710 clocks
+AVG bug (history kept across packets) B: 4096 of 4096 words, 189 wrong values, 0 wrong TLAST
+AVG bug (tready always 1) B: 2010 of 4096 words, 2010 wrong values, 59 wrong TLAST

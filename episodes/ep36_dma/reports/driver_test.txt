@@ -1,0 +1,4 @@
+DMA with flush and invalidate: init 0, transfer 0, receiver armed first yes, 0 of 256 samples wrong
+DMA bug: no flush before the transfer: init 0, transfer 0, receiver armed first yes, 251 of 256 samples wrong
+DMA bug: no invalidate after the transfer: init 0, transfer 0, receiver armed first yes, 256 of 256 samples wrong
+DMA test PASS
