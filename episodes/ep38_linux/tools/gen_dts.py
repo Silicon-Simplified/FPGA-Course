@@ -7,7 +7,16 @@ import sys
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-EPS = os.path.join(HERE, "..", "..", "..")          # .../episodes (works in the course folder and in the GitHub repo)
+def find_episodes(start):                              # the folder that contains ep35_axil: works in the course folder (.../ep38/code/tools) and in the GitHub repo (.../ep38/tools)
+    d = start
+    for _ in range(6):
+        d = os.path.dirname(d)
+        if os.path.isdir(os.path.join(d, "ep35_axil")):
+            return d
+    sys.exit("cannot find the ep35_axil folder: pass the two address_map.txt files as arguments")
+
+
+EPS = find_episodes(HERE) if len(sys.argv) < 3 else ""
 args = sys.argv[1:]
 m35 = args[0] if len(args) > 0 else os.path.join(EPS, "ep35_axil", "code", "reports", "address_map.txt")
 m37 = args[1] if len(args) > 1 else os.path.join(EPS, "ep37_irq", "code", "reports", "address_map.txt")
