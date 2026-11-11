@@ -1,0 +1,3 @@
+IRQ mut 0: 22 checks, 0 errors; events counted for 20 noisy presses: 20; clean press to interrupt: 19 clocks (debounce 16)
+IRQ mut 1: 22 checks, 2 errors; events counted for 20 noisy presses: 182; clean press to interrupt: 4 clocks (debounce 16)
+IRQ mut 2: 22 checks, 2 errors; events counted for 20 noisy presses: 20; clean press to interrupt: 19 clocks (debounce 16)

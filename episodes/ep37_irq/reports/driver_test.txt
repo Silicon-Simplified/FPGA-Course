@@ -1,0 +1,4 @@
+IRQ driver correct ISR: init 0, ISR called 2 times, counted 3 presses (3 really happened)
+IRQ driver bug: ISR never acknowledges: init 0, ISR called 1000 times, counted 2999 presses (3 really happened) (interrupt storm)
+IRQ driver bug: ISR acknowledges all bits: init 0, ISR called 1 times, counted 2 presses (3 really happened)
+IRQ test PASS

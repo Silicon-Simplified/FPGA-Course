@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+    553	     28	    256	    837	    345	hello_irq.o
