@@ -50,6 +50,7 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 35 | Custom AXI4-Lite IP + C driver | [ep35](episodes/ep35_axil) | coming soon |
 | 36 | AXI DMA streaming | [ep36](episodes/ep36_dma) | coming soon |
 | 37 | Interrupts PS↔PL | [ep37](episodes/ep37_irq) | coming soon |
+| 38 | Linux on Zynq: device tree + UIO | [ep38](episodes/ep38_linux) | coming soon |
 
 More episodes are added as they are released.
 
