@@ -14,6 +14,7 @@
 **Honest notes:** the input is a simulated two-tone signal; there is no ADC, no antenna and no real radio signal, and nothing was run on a physical board. The first version of the mixer computed the 12 × 16-bit product in a 16-bit expression context and silently lost the top bits (output almost zero); the comparison against the model caught it, and the products are now full-width wires. The model is bit-exact by construction for this RTL (same integer arithmetic), so the 0 mismatches show that the RTL implements the model, not that the model is the best possible design. The frequency response was only measured with 8 single tones. The spectrum uses a Hann window on 1983 output samples.
 
 ## Run it
+Run `make test` in a folder whose path has no spaces (Verilator); `DDC_WORK` selects the simulation folder (default `work/` next to the code).
 ```bash
 make tables   # regenerate rtl/*.mem
 make test     # Verilator simulations + model comparison + analysis (a few minutes)
