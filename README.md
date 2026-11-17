@@ -53,6 +53,7 @@ Every number shown in the videos comes from a real run of the code in this repos
 | 38 | Linux on Zynq: device tree + UIO | [ep38](episodes/ep38_linux) | coming soon |
 | 39 | High-Fmax design techniques | [ep39](episodes/ep39_fmax) | coming soon |
 | 40 | Power analysis & optimisation | [ep40](episodes/ep40_power) | coming soon |
+| 41 | Capstone 1: SDR receiver chain (DDC) | [ep41](episodes/ep41_ddc) | coming soon |
 
 More episodes are added as they are released.
 

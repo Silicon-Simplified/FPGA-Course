@@ -1,0 +1,11 @@
+DDC bit-exact vs the Python model: 2047 output samples (I and Q), 0 mismatches
+DDC two-tone test: wanted tone at fc+20.0 kHz appears at 19.9 kHz; interferer (same amplitude) at fc+700 kHz leaves -89.5 dBc at its alias (+200 kHz); worst spur anywhere -69.0 dBc
+DDC response at +10 kHz: measured -0.00 dB, ideal -0.00 dB (relative to the CIC gain at DC)
+DDC response at +50 kHz: measured -0.03 dB, ideal -0.03 dB (relative to the CIC gain at DC)
+DDC response at +100 kHz: measured -0.11 dB, ideal -0.11 dB (relative to the CIC gain at DC)
+DDC response at +150 kHz: measured -0.46 dB, ideal -0.46 dB (relative to the CIC gain at DC)
+DDC response at +200 kHz: measured -2.14 dB, ideal -2.14 dB (relative to the CIC gain at DC)
+DDC response at +300 kHz: measured -15.94 dB, ideal -15.94 dB (relative to the CIC gain at DC)
+DDC response at +400 kHz: measured -66.16 dB, ideal -68.69 dB (relative to the CIC gain at DC)
+DDC response at +700 kHz: measured -68.89 dB, ideal -91.08 dB (relative to the CIC gain at DC)
+DDC bug (CIC registers 24 bits instead of 33): 2047 output samples, 4094 mismatches; worst spur -2.8 dBc
