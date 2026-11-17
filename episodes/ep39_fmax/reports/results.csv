@@ -1,0 +1,12 @@
+experiment,variant,wns_ns,fmax_mhz,luts,ffs,slices,lut_as_srl,lut_as_ram,bram_tiles,control_sets
+pipelining,comb,-7.315,107,309,548,162,0,0,0,1
+pipelining,every_level,-1.010,332,508,1028,194,0,0,0,1
+pipelining,every_2nd,-2.060,246,490,684,171,0,0,0,1
+fanout,plain,0.295,587,0,4013,710,0,0,0,14
+fanout,max_fanout_50,0.422,634,0,4040,795,0,0,0,41
+delay_line,ff_with_reset,0.328,598,80,127,45,64,0,0,2
+delay_line,srl_no_reset,0.365,612,64,64,34,64,0,0,1
+delay_line,ff_chain,0.548,689,0,2048,335,0,0,0,1
+delay_line,block_ram,0.275,580,4,6,2,0,0,0.5,1
+control_sets,one_ce,0.361,610,0,2055,362,0,0,0,8
+control_sets,256_ces,0.561,695,0,2304,699,0,0,0,257
