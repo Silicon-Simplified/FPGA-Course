@@ -1,0 +1,6 @@
+Sobel reference model vs scipy.ndimage.sobel on both test images: identical (interior, before clamping)
+Sobel RTL, 3 frames of 128x96 back to back, 0% random bubbles on the input: 36864 pixels compared, 0 mismatches; latency 131 clocks (W + 3 = 131: W + 2 accepted pixels and the registered valid flag)
+Sobel output of frame 1: 11788 non-zero pixels of 12288; border pixels all zero: True
+Sobel RTL, 3 frames of 128x96 back to back, 30% random bubbles on the input: 36864 pixels compared, 0 mismatches
+Sobel bug 1 (line buffers one pixel too short): 12288 pixels compared, 10231 mismatches (83.3%)
+Sobel bug 2 (no clamping (8-bit wrap-around)): 12288 pixels compared, 838 mismatches (6.8%)
