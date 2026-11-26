@@ -3,6 +3,8 @@
 Companion code for the **Silicon Simplified** YouTube series, a complete, hands-on course on Xilinx / AMD FPGAs:
 from "what is an FPGA?" to timing closure and Zynq SoCs.
 
+**[Watch the full course playlist on YouTube](https://www.youtube.com/playlist?list=PLWlCQ2JUy-j8)**
+
 Every number shown in the videos comes from a real run of the code in this repository
 (Vivado simulator, Verilator lint, and AMD Vivado 2023.2 synthesis / implementation).
 
