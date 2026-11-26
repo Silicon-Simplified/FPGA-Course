@@ -13,9 +13,9 @@ Every number shown in the videos comes from a real run of the code in this repos
 
 | # | Episode | Code | Video |
 |---|---|---|---|
-| 1 | What is an FPGA? How it really works inside | [ep01](episodes/ep01_what_is_an_fpga) | [Watch](https://youtu.be/5TFQvzD636w) |
-| 2 | Xilinx / AMD families explained, and how to choose your first board | [ep02](episodes/ep02_xilinx_families) | coming soon |
-| 3 | Inside an FPGA slice: LUTs, carry chains, shift registers, distributed RAM | [ep03](episodes/ep03_seven_series_clb) | coming soon |
+| 1 | What is an FPGA? How it really works inside | [ep01](episodes/ep01_what_is_an_fpga) | [Watch](https://youtu.be/jxLooem-3x4) |
+| 2 | Xilinx / AMD families explained, and how to choose your first board | [ep02](episodes/ep02_xilinx_families) | [Watch](https://youtu.be/eDNoXBvrNqg) |
+| 3 | Inside an FPGA slice: LUTs, carry chains, shift registers, distributed RAM | [ep03](episodes/ep03_seven_series_clb) | [Watch](https://youtu.be/xp-QPqlmg_Q) |
 | 4 | Digital logic for FPGA designers: combinational vs sequential, delay, setup and hold | [ep04](episodes/ep04_digital_logic) | coming soon |
 | 5 | Verilog basics: think in hardware | [ep05](episodes/ep05_verilog_basics) | coming soon |
 | 6 | Blocking vs non-blocking assignments | [ep06](episodes/ep06_blocking_nonblocking) | coming soon |
